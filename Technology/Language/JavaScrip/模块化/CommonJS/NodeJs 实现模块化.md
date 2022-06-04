@@ -93,3 +93,5 @@ module3.f();
 var result = uniq(module3.arr);
 console.log(result);
 ```
+
+终端使用命令`node app.js`，来运行 js 文件。

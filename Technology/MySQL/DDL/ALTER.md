@@ -38,4 +38,4 @@ ALTER TABLE 表名 MODIFY 字段名 1 VARCHAR(20) AFTER 字段名 2;
 ALTER TABLE su MODIFY rainy VARCHAR(20) AFTER two;
 ```
 
-删除字段
+## 删除字段
