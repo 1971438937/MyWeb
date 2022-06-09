@@ -13,6 +13,26 @@ tags:
 
 它是一个与函数的实参有映射关系的类数组。
 
+若函数的实参和形参数量一致，那么函数的形参与函数的 argments 之间为映射关系，即形参改变后，与之映射的 arguments[x] 也会改变。
+
+若传入的实参比形参少，多余的形参和 `argments` 没有映射关系。
+
+```javascript
+function demo(a, b) {
+	// return 20
+	console.log(b);
+	b = 200;
+
+	// return 200
+	console.log(b);
+	arguments[1] = 2000;
+	// return 2000
+	console.log(b);
+}
+demo(1, 20);
+
+```
+
 ## 属性
 
 ### Callee

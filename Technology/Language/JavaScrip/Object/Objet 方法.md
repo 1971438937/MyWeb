@@ -121,20 +121,3 @@ var b = Object.create(a);
 
 该方法用于判断指定对象的属性是否是该对象自身的，或是该对象的原型的属性，并会返回一个布尔值。该方法通常与 for in 语句配合使用。
 
-## constructor()
-
-该方法返回创建实例对象的 Object 构造函数的引用。注意，此属性的值是对函数本身的引用，而不是一个包含函数名称的字符串。
-
-当一个构造函数创建一个对象实例后，这个对象默认为空对象，但这个对象其中有一个系统隐式的属性 constructor，该属性表示该对象是用哪一个构造函数所创建的，这个属性的指向是可以更改的。
-
-```JavaScript
-function peen() {}
-Demo.prototype = {
-	constructor: peen,
-	// 更改构造函数 Demo 的 construction 指向为 peen。
-};
-function Demo() {}
-var apple = new Demo();
-console.log(apple.constructor);
-// 返回函数 peen。
-```
