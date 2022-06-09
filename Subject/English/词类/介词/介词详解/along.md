@@ -1,6 +1,6 @@
 ---
 title: English along
-date: 2022-04-28 6:00:00
+date: 2022-04-28
 categories:
         - English
 tags:

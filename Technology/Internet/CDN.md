@@ -1,6 +1,6 @@
 ---
 title: CDN
-date: 2022-04-10 6:00:00
+date: 2022-04-10
 categories:
         - 网络技术
 tags:

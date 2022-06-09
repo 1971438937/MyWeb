@@ -1,6 +1,6 @@
 ---
 title: Vue data
-date: 2022-05-15 6:00:00
+date: 2022-05-15
 categories:
         - 前端框架
 tags:

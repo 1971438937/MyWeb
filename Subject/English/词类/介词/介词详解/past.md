@@ -1,6 +1,6 @@
 ---
 title: English past
-date: 2022-04-25 6:00:00
+date: 2022-04-25
 categories:
         - English
 tags:

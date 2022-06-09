@@ -1,6 +1,6 @@
 ---
 title: MySql DBMS
-date: 2022-04-04 6:00:00
+date: 2022-04-04
 categories:
         - 数据库
 tags:

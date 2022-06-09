@@ -1,6 +1,6 @@
 ---
 title: OSPF 协议
-date: 2021-12-09 6:00:00
+date: 2021-12-09
 categories:
         - 网络技术
 tags:

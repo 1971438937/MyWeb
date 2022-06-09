@@ -1,6 +1,6 @@
 ---
 title: 安装 Hyper V
-date: 2021-10-02 6:00:00
+date: 2021-10-02
 categories:
         - 服务器
 tags:

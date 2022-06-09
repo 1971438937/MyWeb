@@ -1,6 +1,6 @@
 ---
 title: Linux 命令
-date: 2022-06-06 6:00:00
+date: 2022-06-06
 categories:
         - 服务器
 tags:
@@ -8,11 +8,10 @@ tags:
         - 虚拟机
         - 域服务器
         - Note
-
 ---
 
 # Linux 命令
 
 ## sudo
 
-sudo -s 切换到root用户，获取管理员权限
+sudo -s 切换到 root 用户，获取管理员权限

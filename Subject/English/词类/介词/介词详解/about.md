@@ -1,6 +1,6 @@
 ---
 title: English about
-date: 2022-04-14 6:00:00
+date: 2022-04-14
 categories:
         - English
 tags:

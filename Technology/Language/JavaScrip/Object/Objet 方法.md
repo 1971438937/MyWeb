@@ -1,6 +1,6 @@
 ---
 title: JavaScript Object 方法
-date: 2022-05-11 6:00:00
+date: 2022-05-11
 categories:
         - 编程语言
 tags:
@@ -120,4 +120,3 @@ var b = Object.create(a);
 ## hasOwnProperty()
 
 该方法用于判断指定对象的属性是否是该对象自身的，或是该对象的原型的属性，并会返回一个布尔值。该方法通常与 for in 语句配合使用。
-

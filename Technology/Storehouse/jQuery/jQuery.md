@@ -1,6 +1,6 @@
 ---
 title: jQuery
-date: 2022-05-16 6:00:00
+date: 2022-05-16
 categories:
         - 前端库
 tags:

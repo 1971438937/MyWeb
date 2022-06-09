@@ -1,6 +1,6 @@
 ---
 title: npm 镜像
-date: 2022-04-30 6:00:00
+date: 2022-04-30
 categories:
         - 包管理器
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 提示 hosts 不同步
-date: 2022-04-20 6:00:00
+date: 2022-04-20
 categories:
         - 软件使用
 tags:

@@ -1,6 +1,6 @@
 ---
 title: 同时推送到Gtihub和Gitee
-date: 2021-10-21 6:00:00
+date: 2021-10-21
 categories:
         - Git
 tags:

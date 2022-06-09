@@ -1,13 +1,12 @@
 ---
 title: Set 方法
-date: 2022-06-05 6:00:00
+date: 2022-06-05
 categories:
         - 编程语言
 tags:
         - 前端
         - Note
         - JavaScript
-
 ---
 
 # Set 方法

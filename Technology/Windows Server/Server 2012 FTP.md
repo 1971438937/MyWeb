@@ -1,6 +1,6 @@
 ---
 title: Server 2012 FTP
-date: 2022-06-06 6:00:00
+date: 2022-06-06
 categories:
         - 服务器
 tags:
@@ -8,18 +8,14 @@ tags:
         - 虚拟机
         - 域服务器
         - Note
-
 ---
 
 # Server 2012 FTP
 
 ## 安装 FTP
 
-
-
 ## 新建用户
 
 ## 新建站点
 
-## 
-
+##

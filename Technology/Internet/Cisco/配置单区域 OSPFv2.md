@@ -1,6 +1,6 @@
 ---
 title: Cisco 配置单区域 OSPFv2
-date: 2021-12-12 6:00:00
+date: 2021-12-12
 categories:
         - 网络技术
 tags:

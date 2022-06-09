@@ -1,6 +1,6 @@
 ---
 title: Cisco SSH 取代 Telnet
-date: 2021-10-22 6:00:00
+date: 2021-10-22
 categories:
         - 网络技术
 tags:

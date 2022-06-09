@@ -1,6 +1,6 @@
 ---
 title: JavaScrip JSON 方法
-date: 2022-04-30 6:00:00
+date: 2022-04-30
 categories:
         - 编程语言
 tags:

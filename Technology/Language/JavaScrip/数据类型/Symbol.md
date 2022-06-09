@@ -1,6 +1,6 @@
 ---
 title: JavaScrip Symbol
-date: 2022-05-29 6:00:00
+date: 2022-05-29
 categories:
         - 编程语言
 tags:
@@ -35,7 +35,6 @@ var game = {
 	},
 };
 console.log(game);
-
 ```
 
 ` Symbol` 是原始类型，不是引用类型，不能使用 `new`。

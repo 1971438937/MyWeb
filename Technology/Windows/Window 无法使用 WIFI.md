@@ -1,6 +1,6 @@
 ---
 title: Window 无法使用 WIFI
-date: 2022-04-03 6:00:00
+date: 2022-04-03
 categories:
         - windows
 tags:

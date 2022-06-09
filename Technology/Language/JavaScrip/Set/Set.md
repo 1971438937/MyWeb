@@ -1,13 +1,12 @@
 ---
 title: Set
-date: 2022-06-05 6:00:00
+date: 2022-06-05
 categories:
         - 编程语言
 tags:
         - 前端
         - Note
         - JavaScript
-
 ---
 
 # Set
@@ -23,7 +22,7 @@ console.log([...new Set(arr)]);
 
 ## 交集
 
-## 并集 
+## 并集
 
 ```js
 let arr = [1, 4, 3, 8];
@@ -31,7 +30,6 @@ let arr2 = [5, 1, 7, 2];
 
 let union = [...new Set([...arr, ...arr2])];
 console.log(union);
-
 ```
 
 ## 差集

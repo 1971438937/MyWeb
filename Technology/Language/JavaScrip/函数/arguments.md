@@ -1,6 +1,6 @@
 ---
 title: JavaScript arguments
-date: 2021-10-21 6:00:00
+date: 2021-10-21
 categories:
         - 编程语言
 tags:
@@ -30,7 +30,6 @@ function demo(a, b) {
 	console.log(b);
 }
 demo(1, 20);
-
 ```
 
 ## 属性

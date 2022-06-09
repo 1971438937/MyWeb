@@ -1,6 +1,6 @@
 ---
 title: Ajax POST 请求
-date: 2022-05-01 6:00:00
+date: 2022-05-01
 categories:
         - Ajax
 tags:

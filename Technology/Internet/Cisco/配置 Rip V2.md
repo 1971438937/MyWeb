@@ -1,6 +1,6 @@
 ---
 title: Cisco 配置 Rip V2
-date: 2021-12-03 6:00:00
+date: 2021-12-03
 categories:
         - 网络技术
 tags:

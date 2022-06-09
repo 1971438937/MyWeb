@@ -1,13 +1,12 @@
 ---
 title: JavaScrip static
-date: 2022-06-05 6:00:00
+date: 2022-06-05
 categories:
         - 编程语言
 tags:
         - 前端
         - Note
         - JavaScript
-
 ---
 
 # static
@@ -22,6 +21,4 @@ class Phone {
 let apple = new Phone(4, 3);
 console.log(apple.name);
 console.log(Phone.name);
-
 ```
-

@@ -1,6 +1,6 @@
 ---
 title: JavaScript Element 属性
-date: 2022-05-02 6:00:00
+date: 2022-05-02
 categories:
         - 编程语言
 tags:

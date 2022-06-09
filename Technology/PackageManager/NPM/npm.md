@@ -1,6 +1,6 @@
 ---
 title: npm
-date: 2021-11-21 6:00:00
+date: 2021-11-21
 categories:
         - 包管理器
 tags:

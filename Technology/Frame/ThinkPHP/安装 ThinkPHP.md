@@ -1,6 +1,6 @@
 ---
 title: 安装 ThinkPHP
-date: 2021-10-22 6:00:00
+date: 2021-10-22
 categories:
         - 后端框架
 tags:

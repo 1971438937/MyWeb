@@ -1,6 +1,6 @@
 ---
 title: English inside
-date: 2022-04-20 6:00:00
+date: 2022-04-20
 categories:
         - English
 tags:

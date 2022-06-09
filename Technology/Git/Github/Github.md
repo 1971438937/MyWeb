@@ -1,6 +1,6 @@
 ---
 title: Github
-date: 2021-10-03 6:00:00
+date: 2021-10-03
 categories:
         - Github
 tags:

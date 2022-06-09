@@ -1,13 +1,12 @@
 ---
 title: JavaScrip Object 属性
-date: 2022-06-05 6:00:00
+date: 2022-06-05
 categories:
         - 编程语言
 tags:
         - 前端
         - Note
         - JavaScript
-
 ---
 
 # Object 属性
@@ -22,4 +21,3 @@ var array = [];
 // return ƒ Array() { [native code] }
 console.log(array.constructor);
 ```
-

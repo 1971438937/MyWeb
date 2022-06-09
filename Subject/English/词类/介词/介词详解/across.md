@@ -1,6 +1,6 @@
 ---
 title: English across
-date: 2022-04-27 6:00:00
+date: 2022-04-27
 categories:
         - English
 tags:

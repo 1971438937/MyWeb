@@ -1,6 +1,6 @@
 ---
 title: JavaScrip const
-date: 2021-10-28 6:00:00
+date: 2021-10-28
 categories:
         - 编程语言
 tags:

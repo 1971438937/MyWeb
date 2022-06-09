@@ -1,6 +1,6 @@
 ---
 title: 域服务器
-date: 2021-11-02 6:00:00
+date: 2021-11-02
 categories:
         - 服务器
 tags:

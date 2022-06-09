@@ -1,6 +1,6 @@
 ---
 title: Git git add
-date: 2021-10-21 6:00:00
+date: 2021-10-21
 categories:
         - Git
 tags:

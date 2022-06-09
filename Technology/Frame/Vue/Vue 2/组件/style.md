@@ -1,6 +1,6 @@
 ---
 title: Vue style
-date: 2022-05-13 6:00:00
+date: 2022-05-13
 categories:
         - 前端框架
 tags:
@@ -21,7 +21,7 @@ tags:
 ```vue
 <style scoped>
 .demo {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 </style>
 ```
@@ -39,11 +39,10 @@ tags:
 ```vue
 <style lang="less">
 .demo {
-  font-size: 2rem;
-  .sub {
-    color: rgb(59, 119, 123);
-  }
+	font-size: 2rem;
+	.sub {
+		color: rgb(59, 119, 123);
+	}
 }
 </style>
 ```
-

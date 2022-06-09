@@ -1,6 +1,6 @@
 ---
 title: JavaScript Try Catch
-date: 2022-04-04 6:00:00
+date: 2022-04-04
 categories:
         - 编程语言
 tags:

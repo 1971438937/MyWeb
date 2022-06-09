@@ -1,6 +1,6 @@
 ---
 title: npm install
-date: 2022-05-15 6:00:00
+date: 2022-05-15
 categories:
         - 包管理器
 tags:

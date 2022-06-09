@@ -1,11 +1,10 @@
 ---
 title: English Translation
-date: 2022-05-28 6:00:00
+date: 2022-05-28
 categories:
         - English
 tags:
         - Note
-
 ---
 
 # Translation

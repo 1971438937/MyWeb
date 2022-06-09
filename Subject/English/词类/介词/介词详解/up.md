@@ -1,6 +1,6 @@
 ---
 title: English up
-date: 2022-04-26 6:00:00
+date: 2022-04-26
 categories:
         - English
 tags:

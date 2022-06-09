@@ -1,6 +1,6 @@
 ---
 title: Vue Props
-date: 2022-05-23 6:00:00
+date: 2022-05-23
 categories:
         - 前端框架
 tags:
@@ -8,7 +8,6 @@ tags:
         - 前端
         - Vue 2
         - Note
-
 ---
 
 # Props
@@ -23,7 +22,6 @@ tags:
 
 ```vue
 <Sudent ref="student" name="Rainy" :age="20" sex="男"></Sudent>
-
 ```
 
 ## 接收数据
@@ -68,7 +66,7 @@ props: {
 
 ## 间接修改 props 中的数据
 
-使用 `data`间接的修改 `props` 
+使用 `data`间接的修改 `props`
 
 ```js
 <template>
@@ -115,4 +113,3 @@ export default {
 
 
 ```
-

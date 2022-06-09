@@ -1,16 +1,15 @@
 ---
 title: JavaScrip class
-date: 2022-06-05 6:00:00
+date: 2022-06-05
 categories:
         - 编程语言
 tags:
         - 前端
         - Note
         - JavaScript
-
 ---
 
-#  class
+# class
 
 创建一个基于原型继承类。
 
@@ -28,6 +27,4 @@ class Phone {
 
 let apple = new Phone(4, 3);
 apple.fun();
-
 ```
-

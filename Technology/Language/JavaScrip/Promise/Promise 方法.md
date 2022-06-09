@@ -1,6 +1,6 @@
 ---
 title: Promise 方法
-date: 2022-06-05 6:00:00
+date: 2022-06-05
 categories:
         - 编程语言
 tags:
@@ -67,7 +67,6 @@ let result = p.then(
 // fulfilled
 // 非 Promise 对象
 console.log(result);
-
 ```
 
 ### 抛出错误
@@ -92,7 +91,6 @@ let result = p.then(
 // rejected
 // Error: error at http://127.0.0.1:5502/Study/main.js
 console.log(result);
-
 ```
 
 ### 链式调用
@@ -135,6 +133,4 @@ let p = new Promise((resolve, reject) => {
 p.catch((err) => {
 	console.log(err);
 });
-
 ```
-

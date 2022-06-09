@@ -1,6 +1,6 @@
 ---
 title: npm view
-date: 2022-05-31 6:00:00
+date: 2022-05-31
 categories:
         - 包管理器
 tags:

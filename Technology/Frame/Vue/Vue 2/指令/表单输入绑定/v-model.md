@@ -1,6 +1,6 @@
 ---
 title: Vue v-model
-date: 2022-05-19 6:00:00
+date: 2022-05-19
 categories:
         - 前端框架
 tags:

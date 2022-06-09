@@ -1,6 +1,6 @@
 ---
 title: SHH 密钥登录
-date: 2021-10-22 6:00:00
+date: 2021-10-22
 categories:
         - 服务器
 tags:

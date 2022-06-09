@@ -1,6 +1,6 @@
 ---
 title: JavaScrip var
-date: 2021-10-23 6:00:00
+date: 2021-10-23
 categories:
         - 编程语言
 tags:

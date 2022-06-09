@@ -1,13 +1,12 @@
 ---
-title: Map 
-date: 2022-06-05 6:00:00
+title: Map
+date: 2022-06-05
 categories:
         - 编程语言
 tags:
         - 前端
         - Note
         - JavaScript
-
 ---
 
 # Map
@@ -36,6 +35,4 @@ map1.delete('b');
 
 console.log(map1.size);
 // return 2
-
 ```
-

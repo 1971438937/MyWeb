@@ -1,6 +1,6 @@
 ---
 title: CodeBlocks 的使用
-date: 2022-02-19 6:00:00
+date: 2022-02-19
 categories:
         - 编程语言
 tags:

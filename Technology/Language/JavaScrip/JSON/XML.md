@@ -1,6 +1,6 @@
 ---
 title: XML
-date: 2022-04-30 6:00:00
+date: 2022-04-30
 categories:
         - Ajax
 tags:

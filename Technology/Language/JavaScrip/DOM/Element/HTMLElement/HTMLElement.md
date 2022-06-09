@@ -1,6 +1,6 @@
 ---
 title: JavaScript HTMLElement 方法
-date: 2022-05-22 6:00:00
+date: 2022-05-22
 categories:
         - 编程语言
 tags:

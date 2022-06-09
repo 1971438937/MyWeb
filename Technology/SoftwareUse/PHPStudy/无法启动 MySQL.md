@@ -1,6 +1,6 @@
 ---
 title: 无法启动 MySQL
-date: 2022-04-20 6:00:00
+date: 2022-04-20
 categories:
         - 软件使用
 tags:
