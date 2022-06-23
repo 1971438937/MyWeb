@@ -1,0 +1,96 @@
+.header-inner {
+  background: var(--content-bg-color);
+  border-radius: $border-radius-inner;
+  box-shadow: $box-shadow-inner;
+  width: $sidebar-desktop;
+
+  +tablet-mobile() {
+    border-radius: initial;
+    width: auto;
+  }
+}
+
+.main {
+  // Make sure that .header and .main-inner are the same height
+  // Required for .sidebar `position: sticky;`
+  align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  main-container();
+
+  if (hexo-config('sidebar.position') == 'right') {
+    flex-direction: row-reverse;
+  }
+
+  +tablet-mobile() {
+    display: block;
+    width: auto;
+  }
+}
+
+.main-inner {
+  border-radius: $border-radius-inner;
+  box-sizing: border-box;
+  width: $content-wrap;
+
+  +tablet-mobile() {
+    border-radius: initial;
+    width: 100%;
+  }
+}
+
+.footer-inner {
+  if (hexo-config('sidebar.position') == 'right') {
+    padding-right: $sidebar-desktop + $sidebar-offset;
+  } else {
+    padding-left: $sidebar-desktop + $sidebar-offset;
+  }
+
+  +tablet-mobile() {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+  }
+}
+
+
+
+/*The ICPN number*/
+.TransitionOne {
+	transition: all 0.35s linear;
+}
+
+a {
+	text-decoration: none;
+    border-bottom: none;
+}
+#Record {
+	padding-bottom: 0;
+    text-align: center;
+	display: inline-block;
+}
+
+#Record .RecordImg {
+	width: 1.2rem;
+	display: inline-block;
+}
+
+#Record .RecordNumber{
+	opacity: 0.7;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#Record .PublicSecurityRecord {
+	opacity: 0.7;
+	text-decoration: none;
+     display: block;
+     margin-top: 0.3rem;
+}
+
+#Record .RecordNumber:hover,
+#Record .PublicSecurityRecord:hover{
+	opacity: 0.7;
+	text-decoration: none;
+	color: #008c8cdc;
+}
