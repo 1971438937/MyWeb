@@ -34,13 +34,13 @@ jobs:
                                   hexo clean
                                   hexo g
                       
-                       - name: Deploy
-        uses: easingthemes/ssh-deploy@v2.2.11 # 使用 NodeJS 通过 ssh 部署 rsync 代码
-        env:
-         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-         ARGS: "-rltgoDzvO"
-         SOURCE: ${{ secrets.SOURCE }}
-         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-         REMOTE_USER: ${{ secrets.REMOTE_USER }}
-         REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
-         TARGET: ${{ secrets.TARGET }}
+                        - name: Deploy
+                          uses: easingthemes/ssh-deploy@v2.2.11 
+                          env:
+                           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+                           ARGS: "-rltgoDzvO"
+                           SOURCE: ${{ secrets.SOURCE }}
+                           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+                           REMOTE_USER: ${{ secrets.REMOTE_USER }}
+                           REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
+                           TARGET: ${{ secrets.TARGET }}
