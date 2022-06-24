@@ -136,8 +136,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-        #GitHub: https://github.com/yourname || fab fa-github
-        #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+        GitHub: https://github.com/YxzRainy || fab fa-github
+        E-Mail: 1971438937@qq.com || fa fa-envelope
         #Weibo: https://weibo.com/yourname || fab fa-weibo
         #Google: https://plus.google.com/yourname || fab fa-google
         #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -167,11 +167,11 @@ links:
 toc:
         enable: true
         # Automatically add list number to toc.
-        number: true
+        number: false
         # If true, all words will placed on next lines if header width longer then sidebar width.
         wrap: false
         # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-        expand_all: false
+        expand_all: true
         # Maximum heading depth of generated toc.
         max_depth: 6
 

@@ -55,8 +55,9 @@ a {
   cursor: pointer;
   outline: 0;
   text-decoration: none;
-  word-wrap();
+  transition: all $transition-ease;
 
+  word-wrap();
   &:hover {
     border-bottom-color: var(--link-hover-color);
     color: var(--link-hover-color);
