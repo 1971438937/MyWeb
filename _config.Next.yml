@@ -348,9 +348,9 @@ codeblock:
                 dark: prism-dark
         # Add copy button on codeblock
         copy_button:
-                enable: false
+                enable: true
                 # Available values: default | flat | mac
-                style:
+                style: default
 
 back2top:
         enable: true
@@ -368,7 +368,7 @@ reading_progress:
         position: top
         reversed: false
         color: '#008c8c'
-        height: 1px
+        height: 1.2px
 
 # Bookmark Support
 bookmark:
