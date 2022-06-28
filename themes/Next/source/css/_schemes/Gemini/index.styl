@@ -123,20 +123,12 @@
 +mobile() {
     main{
        padding-top: 0px; 
-  }
+    }
   // Posts in blocks.
-  .main-inner {
-    padding: $content-mobile-padding;
-  }
-  // 文章块圆角
-   .main-inner > .post-block{
-        border-radius: 0 !important;
+    .main-inner {
+        padding: $content-mobile-padding;
     }
-    // 顶栏
-    .site-brand-container {
-        border-radius: 0;
-    }
-
+    
 // 文章块标题
   .posts-expand .post-title {
      font-size: 1.2rem;
@@ -148,7 +140,10 @@
       margin: $sidebar-offset 0;
     }
   }
-
+    //回到顶部
+    .back-to-top{
+        box-shadow:none;
+    }
   .post-block {
     // Inside posts blocks content padding (default 40px).
     padding: $sidebar-offset;

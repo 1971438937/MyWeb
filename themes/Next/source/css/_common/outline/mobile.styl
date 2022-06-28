@@ -12,8 +12,38 @@ if (hexo-config('mobile_layout_economy')) {
     .main-inner {
       padding: initial !important;
     }
-    
 
+        
+    // 最后一个文章块
+    .main-inner > .post-block:not(:first-child):not(.sub-menu){
+        box-shadow: none !important;
+    }
+    
+    // 文章块标题
+  .posts-expand .post-title {
+     font-size: 1.2rem !important;
+  }
+      //回到顶部
+    .back-to-top{
+        box-shadow:none !important;
+    }
+  // 文章块圆角
+   .main-inner > .post-block,{
+        border-radius: 0 !important;
+        box-shadow: none;
+    }
+    
+    // 顶栏
+    .site-brand-container {
+        border-radius: 0 !important;
+    }
+    
+    // 底部翻页
+    .main-inner > .pagination:not(:first-child):not(.sub-menu){
+        border-radius: 0 !important;
+        margin-top: 0 !important;
+        box-shadow: none !important;
+    }
 
     // For all schemes wider width.
     .posts-expand {
