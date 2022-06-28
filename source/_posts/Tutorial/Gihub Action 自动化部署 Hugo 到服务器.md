@@ -506,7 +506,6 @@ jobs:
 	background-color: #fff;
 	border: 2px solid #000;
 	box-sizing: border-box;
-
 	border-radius: 3px;
 }
 
