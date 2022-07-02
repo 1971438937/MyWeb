@@ -3,17 +3,23 @@ title: About
 date: 2022-06-24 01:15:15
 ---
 
-## Aboout
-
 这是我的个人空间。
 
 自由，无人干涉；清静，安宁；以自我为中心。
 
 
-### Less is more
+## Less is more
 
 追求极致简约的呈现效果，并且拒绝违反这一形态的任何事物。
 
 削减到本质，但不要剥离其韵味，保持干净纯洁，但不要剥夺其生命力。
 
 简单即美，完全专注于自己的所爱。
+
+## Other web site
+
+笔记：https://note.yxzi.xyz/
+
+图床：https://gallery.yxzi.xyz/
+
+云盘：https://cloud.yxzi.xyz/
