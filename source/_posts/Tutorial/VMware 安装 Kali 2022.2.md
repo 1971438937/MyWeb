@@ -10,7 +10,7 @@ tags:
 
 # VMware 安装 Kali 2022.2
 
-> Kali是基于 Debian 的 Linux 发行版操作系统，一开始是由 Offensive Security 的 Mati Aharoni 和 Devon Kearns 通过重写 BackTrack 来完成，用来进行数字取证。
+> Kali 是基于 Debian 的 Linux 发行版操作系统，一开始是由 Offensive Security 的 Mati Aharoni 和 Devon Kearns 通过重写 BackTrack 来完成，用来进行数字取证。
 >
 > 它拥有超过 300 个渗透测试工具，拥有开源 Git 树等，甚至还集成了 600 多种黑客工具，完全可以想象到它的强大性。更重要的是，它是免费的。
 
