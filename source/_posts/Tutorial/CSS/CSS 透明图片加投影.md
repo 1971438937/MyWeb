@@ -37,7 +37,7 @@ tags:
 }
 ```
 
-如果感觉不太好的话，可以再定义一个 `<img>`。
+如果感觉效果不太好的话，可以再定义一个 `<img>`。
 
 **HTML**
 
@@ -46,7 +46,7 @@ tags:
 <img class="img-bg" src="https://gallery.yxzi.xyz/galleries/2022/06/12/Gallery.png" alt="">
 ```
 
-使用定位将`img-bg`完全覆盖，然后设置它的`blur()`.
+使用定位将 img-bg 完全覆盖，然后设置它的`blur()`。
 
 ```css
 .img,

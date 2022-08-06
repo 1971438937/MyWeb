@@ -10,23 +10,23 @@ tags:
 
 # VMware 安装 Kali 2022.2
 
-> Kali 是基于 Debian 的 Linux 发行版操作系统，一开始是由 Offensive Security 的 Mati Aharoni 和 Devon Kearns 通过重写 BackTrack 来完成，用来进行数字取证。
->
-> 它拥有超过 300 个渗透测试工具，拥有开源 Git 树等，甚至还集成了 600 多种黑客工具，完全可以想象到它的强大性。更重要的是，它是免费的。
-
 ## 写在前面
 
-一个很简单的安装教程。
+### kali 是什么
 
-## 主要实现
+Kali 是基于 Debian 的 Linux 发行版操作系统，一开始是由 Offensive Security 的 Mati Aharoni 和 Devon Kearns 通过重写 BackTrack 来完成，用来进行数字取证。
 
-在 VMware 上完成 Kali 2022.2 版本的**创建和安装**。
+它拥有超过 300 个渗透测试工具，拥有开源 Git 树等，甚至还集成了 600 多种黑客工具，完全可以想象到它的强大性。更重要的是，它是免费的。
 
-## 环境准备
+### 主要内容
 
-[Kali 2022.2](https://www.kali.org/get-kali/#kali-bare-metal)  镜像
+在 VMware 上完成 Kali 2022.2 版本虚拟机的**创建和安装**。
 
-VMware Pro 16.1.2
+### 环境准备
+
+[Kali 2022.2](https://www.kali.org/get-kali/#kali-bare-metal)  镜像。
+
+VMware Pro 16.1.2。
 
 Windows 10 操作系统。
 

@@ -22,13 +22,11 @@ tags:
 
 这......我想换谁也没心思写文章了，因此，我利用百度大法，找到了 PicGo 这个好东西，这使我写文章时舒适了不少。
 
-## 主要实现
+### 主要内容
 
-在服务器上搭建 Lsky Pro.
+安装 Lsky Pro 并配置 PicGo 和 Typora，实现当我们将图片粘贴到 Typora 中后，PicGo 会自动将图片上传到 Lsky Pro。
 
-配置 PicGo 和 Typora，实现将图片粘贴到 Typora 中，即可自动将图片上传到 Lsky Pro.
-
-## 环境准备
+### 环境准备
 
 [Lsky Pro 2.0.4](https://docs.lsky.pro/)
 
@@ -36,7 +34,7 @@ tags:
 
 [Typora 1.2.5](https://typoraio.cn/)
 
-已安装[宝塔 7.9.2](https://bt.cn/new/download.html) 的服务器
+已安装[宝塔 7.9.2](https://bt.cn/new/download.html) 的服务器。
 
 Windows 10 操作系统。
 

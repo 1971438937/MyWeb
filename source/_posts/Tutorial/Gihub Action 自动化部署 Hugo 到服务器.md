@@ -12,28 +12,25 @@ tags:
 
 # Gihub Action 自动化部署 Hugo 到服务器
 
-> 持续集成由很多操作组成，比如抓取代码、运行测试、登录远程服务器，发布到第三方服务等等。GitHub 把这些操作就称为 Actions.
->
-
 ## 写在前面
 
 前几天刚接触 Gihub Action，只为了自动化部署我的 Hugo 博客，但是万万没想到，我断断续续折腾了一天都没有成功！一直卡在最后的部署环节，最后我索性换了一对密钥对，然后部署成功了......
 
-## 主要实现
+### 主要实现
 
 在本地搭建一个 Hugo 博客。
 
 将本地博客推送到 Github 上进行版本控制。
 
-利用 Github Action + SSH 登录到我们的服务器并实现自动化部署。
+使用 Github Action + SSH 登录到我们的服务器并实现自动化部署。
 
-## 环境准备
+### 环境准备
 
-[Git 2.35.1](https://git-scm.com/downloads)
+[Git 2.35.1](https://git-scm.com/downloads)。
 
-[Github](https://github.com/) 账户
+[Github](https://github.com/) 账户。
 
-已安装[宝塔  7.9.2 ](https://bt.cn/new/download.html)的服务器
+已安装[宝塔  7.9.2 ](https://bt.cn/new/download.html)的服务器。
 
 Windows 10 操作系统。
 
