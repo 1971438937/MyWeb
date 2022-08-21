@@ -1,10 +1,11 @@
 ---
 title: CodeBlocks 的使用
-date: 2022-02-19
 categories:
-        - 教程
+  - 教程
 tags:
-        - CodeBlocks
+  - CodeBlocks
+abbrlink: 2098
+date: 2022-02-19 00:00:00
 ---
 
 # CodeBlocks 的使用

@@ -1,10 +1,11 @@
 ---
 title: 使用 Echarts 过程中遇到的 Error
-date: 2021-11-06
 categories:
-        - 问题
+  - 问题
 tags:
-        - Echarts 
+  - Echarts
+abbrlink: 16774
+date: 2021-11-06 00:00:00
 ---
 
 # 使用 Echarts 过程中遇到的 Error

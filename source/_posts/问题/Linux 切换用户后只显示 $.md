@@ -1,10 +1,11 @@
 ---
 title: Linux 切换用户后只显示 $
-date: 2022-08-03
 categories:
-        - 问题
+  - 问题
 tags:
-        - Linux
+  - Linux
+abbrlink: 33526
+date: 2022-08-03 00:00:00
 ---
 
 # Linux 切换用户后只显示 $

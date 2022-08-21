@@ -1,11 +1,12 @@
 ---
 title: 宝塔申请 SSL 出现域名待验证
-date: 2021-12-15
 categories:
-        - 问题
+  - 问题
 tags:
-        - 宝塔
-        - SSL
+  - 宝塔
+  - SSL
+abbrlink: 4659
+date: 2021-12-15 00:00:00
 ---
 
 # 宝塔申请 SSL 出现域名待验证

@@ -1,11 +1,12 @@
 ---
 title: Css 透明图片加投影
-date: 2021-10-16
 categories:
-        - 教程
+  - 教程
 tags:
-        - 前端
-        - CSS
+  - 前端
+  - CSS
+abbrlink: 38500
+date: 2021-10-16 00:00:00
 ---
 
 # CSS 透明图片加投影

@@ -1,13 +1,14 @@
 ---
 title: 实现 ARP 欺骗
-date: 2022-06-06
 categories:
-        - 教程
+  - 教程
 tags:
-        - Arp
-        - Linux
-        - Vmware
-        - Network Security
+  - Arp
+  - Linux
+  - Vmware
+  - Network Security
+abbrlink: 62848
+date: 2022-06-06 00:00:00
 ---
 
 # 实现 ARP 欺骗

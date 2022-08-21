@@ -1,10 +1,11 @@
 ---
 title: 通过 Hexo 注入为主题添加新功能
-date: 2022-08-10
 categories:
-        - 教程
+  - 教程
 tags:
-        - Hexo
+  - Hexo
+abbrlink: 21178
+date: 2022-08-10 00:00:00
 ---
 
 # 通过 Hexo 注入为主题添加新功能

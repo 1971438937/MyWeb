@@ -1,12 +1,13 @@
 ---
 title: 安装 ThinkPHP
-date: 2021-10-22
 categories:
-        - 教程
+  - 教程
 tags:
-        - PHP
-        - Frame
-        - ThinkPHP
+  - PHP
+  - Frame
+  - ThinkPHP
+abbrlink: 33711
+date: 2021-10-22 00:00:00
 ---
 
 # 安装 ThinkPHP

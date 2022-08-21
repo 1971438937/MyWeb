@@ -1,11 +1,11 @@
 ---
 title: PHPStudy 无法启动 MySQL
-date: 2022-04-20
 categories:
-        - 问题
+  - 问题
 tags:
-
-        - PHPStudy
+  - PHPStudy
+abbrlink: 36993
+date: 2022-04-20 00:00:00
 ---
 
 # PHPStudy 无法启动 MySQL

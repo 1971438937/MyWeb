@@ -1,13 +1,14 @@
 ---
 title: Gihub Action 自动化部署 Hugo 到服务器
-date: 2022-06-02
 categories:
-        - 教程
+  - 教程
 tags:
-        - Hugo
-        - SSH
-        - GitHub
-        - Github Action
+  - Hugo
+  - SSH
+  - GitHub
+  - Github Action
+abbrlink: 19807
+date: 2022-06-02 00:00:00
 ---
 
 # Gihub Action 自动化部署 Hugo 到服务器

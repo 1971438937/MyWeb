@@ -1,10 +1,11 @@
 ---
 title: 修改 Hexo NexT 主题动画速度
-date: 2022-08-10
 categories:
-        - 教程
+  - 教程
 tags:
-        - Hexo
+  - Hexo
+abbrlink: 9570
+date: 2022-08-10 00:00:00
 ---
 
 # 修改 Hexo NexT 主题动画速度

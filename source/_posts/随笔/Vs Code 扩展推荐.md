@@ -1,11 +1,12 @@
 ---
 title: Vs Code 扩展推荐
-date: 2021-10-22
 categories:
-        - 随笔
+  - 随笔
 tags:
-        - Vs Code
-        - Recommend
+  - Vs Code
+  - Recommend
+abbrlink: 63514
+date: 2021-10-22 00:00:00
 ---
 
 # Vs Code 扩展推荐

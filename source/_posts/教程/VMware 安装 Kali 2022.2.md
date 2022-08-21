@@ -1,11 +1,12 @@
 ---
 title: VMware 安装 Kali 2022.2
-date: 2022-06-01
 categories:
-        - 教程
+  - 教程
 tags:
-        - Linux
-        - Vmware
+  - Linux
+  - Vmware
+abbrlink: 34249
+date: 2022-06-01 00:00:00
 ---
 
 # VMware 安装 Kali 2022.2

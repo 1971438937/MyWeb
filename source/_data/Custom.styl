@@ -1,3 +1,6 @@
+html{
+    font-size:10px;
+}
 $orange       = #008c8c;
 
 .post-body {
@@ -17,17 +20,6 @@ main {
 
 
 
-+mobile() {
-    main{
-       padding-top: 0px !important; 
-    }
-}
-+tablet() {
-    main{
-       padding-top: 0px !important; 
-   }
-
-}
 
 // 主页文章项目下边距
 .posts-expand .post-header {
@@ -119,7 +111,7 @@ a {
     padding: 21px 10px;
 }
 
-// 主页首个文章项目
+// 主页文章项目
 .main-inner > .post-block,
 .main-inner > .post-block:not(:first-child):not(.sub-menu),
 .main-inner > .pagination:not(:first-child):not(.sub-menu),{
@@ -131,4 +123,64 @@ a {
     padding: 0.3rem 0.8rem;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
     border-radius: 3px;
+}
+
+// 顶部标题
+.site-title{
+    font-size:2rem; 
+}
+
+
+
+// 主页文章项目标题
+.posts-expand .post-title-link{
+    font-size:2.4rem; 
+}
+
+// 平板端： (min-width: 768px) and (max-width: 991px)
++tablet() {
+    main{
+       padding-top: 0px !important; 
+   }
+
+}
+
+// 移动端：(max-width: 767px)
++mobile() {
+
+    main{
+       padding-top: 0px !important; 
+    }
+
+    // 主页文章项目链接
+    .posts-expand .post-title-link{
+        font-size:1.7rem; 
+    }
+
+
+}
+// 移动端：(max-width: 567px)
++mobile-small() {
+    // 主页文章项目高度
+.posts-expand .post-title{
+    line-height: 2;
+}
+        // 顶部黑块
+    .site-brand-container {
+        font-size:1.8rem; 
+        border-radius: 0 !important;
+        padding: 5px 10px !important;
+    }
+
+    // 主页文章项目
+   .main-inner > .post-block,
+    .main-inner > .post-block:not(:first-child):not(.sub-menu),
+    .main-inner > .pagination:not(:first-child):not(.sub-menu){
+        box-shadow: none;
+        padding:15px 0 !important;
+        border-radius: 0px;
+    }
+    .main-inner > .pagination:not(:first-child):not(.sub-menu) {
+        margin-top: 0
+    }
 }

@@ -1,10 +1,11 @@
 ---
 title: 使用 Hexo 搭建一个博客
-date: 2021-11-03
 categories:
-        - 教程
+  - 教程
 tags:
-        - Hexo
+  - Hexo
+abbrlink: 9892
+date: 2021-11-03 00:00:00
 ---
 
 # 使用 Hexo 搭建一个博客

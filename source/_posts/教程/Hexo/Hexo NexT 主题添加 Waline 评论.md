@@ -1,10 +1,11 @@
 ---
 title: Hexo NexT 主题添加 Waline 评论
-date: 2022-08-10
 categories:
-        - 教程
+  - 教程
 tags:
-        - Hexo
+  - Hexo
+abbrlink: 48467
+date: 2022-08-10 00:00:00
 ---
 
 # Hexo NexT 主题添加 Waline 评论
