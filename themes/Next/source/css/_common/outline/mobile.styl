@@ -5,55 +5,11 @@
 }
 */
 
-// 移动端扁平
 if (hexo-config('mobile_layout_economy')) {
   +mobile-small() {
     // For Pisces & Gemini schemes only wider width (remove main blocks in Gemini).
     .main-inner {
-      padding: 0 !important;
-      box-shadow: none;
-    }
-
-        
-    // 最后一个文章块
-    .main-inner > .post-block:not(:first-child):not(.sub-menu){
-        box-shadow: none !important;
-    }
-    
-    // 文章块标题
-  .posts-expand .post-title {
-     font-size: 1.2rem !important;
-  }
-      //回到顶部
-    .back-to-top{
-        box-shadow:none !important;
-    }
-  // 文章块
-   .main-inner > .post-block,{
-        border-radius: 0 !important;
-        box-shadow: none !important;
-              margin-top: initial !important;
-      // Inside posts blocks content padding (default 40px).
-    //   padding: $content-mobile-padding 18px $content-mobile-padding !important;
-        padding: 2.6rem 1rem !important;
-    }
-    // 文章标签
-  .post-tags a {
-    box-shadow: none !important;
-    border-radius: 0px !important;
-  }
-
-    
-    // 顶栏
-    .site-brand-container {
-        border-radius: 0 !important;
-    }
-    
-    // 底部翻页
-    .main-inner > .pagination:not(:first-child):not(.sub-menu){
-        border-radius: 0 !important;
-        margin-top: 0 !important;
-        box-shadow: none !important;
+      padding: initial !important;
     }
 
     // For all schemes wider width.
@@ -61,6 +17,12 @@ if (hexo-config('mobile_layout_economy')) {
       .post-header {
         margin-bottom: 10px !important;
       }
+    }
+
+    .post-block {
+      margin-top: initial !important;
+      // Inside posts blocks content padding (default 40px).
+      padding: $content-mobile-padding 18px $content-mobile-padding !important;
     }
 
     .post-body {

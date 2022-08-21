@@ -68,10 +68,6 @@
 .post-body {
   h1, h2 {
     border-bottom: 1px solid $body-bg-color;
-
-  }
-  h1{
-    display: none;
   }
 
   h3 {
@@ -84,15 +80,6 @@
 // ==================================================
 +tablet() {
   // Posts in blocks.
-  // 移动端
-    main{
-       padding-top: 0px; 
-   }
-
-    .main-inner > .post-block{
-        border-radius: 0px
-    }
-
   .main-inner {
     padding: $content-tablet-padding;
   }
@@ -119,15 +106,12 @@
 // ==================================================
 // < 767px
 // ==================================================
-// 移动端响应式
 +mobile() {
-    main{
-       padding-top: 0px; 
-    }
   // Posts in blocks.
-    .main-inner {
-        padding: $content-mobile-padding;
-    }
+  .main-inner {
+    padding: $content-mobile-padding;
+  }
+
   .posts-expand {
     // Components inside Posts.
     .post-button {

@@ -29,8 +29,7 @@ if (hexo-config('local_search.enable') or hexo-config('algolia_search.enable')) 
     transform: scale(0);
     transition: transform .4s;
     width: 700px;
-    border-radius: 3px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
     .search-active & {
       transform: scale(1);
     }
@@ -45,10 +44,6 @@ if (hexo-config('local_search.enable') or hexo-config('algolia_search.enable')) 
       color: $grey-dark;
       font-size: 18px;
       padding: 0 10px;
-      transition: color $transition-ease;
-      .fa-times-circle{
-        transition: color $transition-ease;
-        }
     }
 
     .popup-btn-close {
@@ -158,11 +153,7 @@ if (hexo-config('local_search.enable')) {
   .search-popup {
     .search-input-container {
       flex-grow: 1;
-      height: 3rem;
-       input{
-        font-size: 1.6rem;
-        line-height: 3rem;
-       }
+      padding: 2px;
     }
 
     .no-result {
