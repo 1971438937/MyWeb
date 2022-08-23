@@ -2,7 +2,11 @@ html {
     font-size: 10px;
 }
 
-$orange = #008c8c;
+$MarsGreen = #008c8c;
+
+body {
+    font-size: 1.5rem;
+}
 
 .post-body {
     h1 {
@@ -24,11 +28,6 @@ main {
 .posts-expand .post-header {
     margin-bottom: 20px;
 }
-
-// 隐藏默认 footer
-// footer{
-// display: none !important;
-// }
 
 // 显示 footer
 .use-motion {
@@ -88,16 +87,44 @@ a {
     padding: 0 8px;
     border-radius: 3px;
     background: #fff;
+    transition: all 0.35s linear;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.06), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 -1px 0.5px 0 rgba(0, 0, 0, 0.09);
+}
+
+// 回到顶部 hover
+.back-to-top:hover{
+    color: $MarsGreen;
 }
 
 // 侧栏 header
 .site-brand-container {
     border-radius: 3px 3px 0 0;
-    padding: 15px 10px;
+    padding: 5px 10px;
 }
 
 // 侧栏 body
+.site-nav .menu{
+    padding:1rem 0;
+}
+
+.menu .menu-item a,
+.menu-item a.menu-item-active{
+    transition: all 0.35s linear;
+    border-radius: 3px;
+}
+.main-menu .menu-item-active::after{
+    background: $MarsGreen;
+    opacity:0.7;
+}
+
+.menu-item a.menu-item-active{
+    background: transparent;
+}
+
+.menu-item a.menu-item-active:hover{
+    backgroud:var(--menu-item-bg-color)
+}
+
 .header-inner {
     border-radius: 3px;
 }
@@ -105,7 +132,22 @@ a {
 // 侧栏 footer
 .sidebar-inner {
     border-radius: 3px;
-    padding: 21px 10px;
+    padding: 15.5px 10px;
+}
+
+.site-author-name{
+    display: none;
+}
+
+.site-state-item-count{
+    font-weight: normal;
+    transition: all 0.35s linear;
+
+}
+// Github
+.links-of-author-item a {
+    border-radius: 3px;
+    transition: all 0.35s linear;
 }
 
 // 主页文章项目
@@ -120,7 +162,34 @@ a {
     border-radius: 3px;
 }
 
-// 顶部标题
+// 文章文字过渡
+.sidebar-nav li {
+    transition: all 0.35s linear;
+}
+
+// 目录颜色 and hover
+.sidebar-toc-active .sidebar-nav-toc, 
+.sidebar-overview-active .sidebar-nav-overview,
+.sidebar-toc-active .sidebar-nav-toc:hover, 
+.sidebar-overview-active .sidebar-nav-overview:hover {
+    color: $MarsGreen;
+    border-bottom-color: $MarsGreen;
+}
+
+.sidebar-nav li:hover{
+    color: $MarsGreen;
+}
+
+.post-toc .nav .active > a{
+    color: $MarsGreen;
+}
+
+    // 文章页评论
+.main-inner > .comments:not(:first-child):not(.sub-menu){
+    border-radius: 3px;
+}
+
+// 侧栏顶部标题
 .site-title {
     font-size: 2rem;
 }
@@ -128,6 +197,84 @@ a {
 // 主页文章项目标题
 .posts-expand .post-title-link {
     font-size: 2.4rem;
+}
+
+// 主页翻页
+.pagination .page-number.current{
+    color: $MarsGreen;
+    border-top-color: transparent;
+    background: transparent;
+}
+.pagination .page-number.current:hover{
+    background: transparent;
+    border-top-color: transparent;
+
+}
+.pagination .page-number{
+    border-radius: 3px;
+    border-top-color: transparent;
+    transition: all 0.35s linear;
+}
+
+.pagination .page-number:hover{
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    background: var(--body-bg-color)
+
+}
+.pagination .next,
+.pagination .prev{
+    border-top-color: transparent;
+    border-radius: 3px;
+    transition: all 0.35s linear;
+}
+.pagination .next:hover,
+.pagination .prev:hover{
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    background: var(--body-bg-color)
+}
+
+// tag 页
+.tag-cloud a:hover{
+    color: $MarsGreen;
+}
+
+// 搜索框
+.search-popup{
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.06), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 -1px 0.5px 0 rgba(0, 0, 0, 0.09);
+}
+
+.search-result-list li{
+    padding:0 10px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    list-style-type: none;
+
+}
+
+.search-popup a.search-result-title{
+    transition: all 0.35s linear;
+}
+// 搜索结果
+.search-popup p.search-result{
+    border-bottom: none;
+}
+// 搜索框关闭按钮
+.fa-times-circle{
+    transition: all 0.35s linear;
+}
+
+.search-popup .search-result-container{
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.search-stats{
+    margin: 12px 0;
+}
+.search-result-container hr{
+    display: none;
 }
 
 // 平板端： (min-width: 768px) and (max-width: 991px)
@@ -170,6 +317,22 @@ a {
     .main-inner > .pagination:not(:first-child):not(.sub-menu) {
         margin-top: 0;
     }
+
+    // 文章页评论
+    .main-inner > .comments:not(:first-child):not(.sub-menu){
+        box-shadow: none;
+        border-radius: 0px;
+    }
+    .back-to-top{
+        box-shadow: none;
+    }
+
+    // 搜索框
+    .search-popup{
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
 }
 
 // 文章页
