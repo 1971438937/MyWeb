@@ -1,11 +1,11 @@
 ---
 title: PHPStudy 新建网站时提示 hosts 不同步
+abbrlink: 15197
+date: 2022-04-20 00:00:00
 categories:
   - 问题
 tags:
   - PHPStudy
-abbrlink: 15197
-date: 2022-04-20 00:00:00
 ---
 
 # PHPStudy 新建网站时提示 hosts 不同步

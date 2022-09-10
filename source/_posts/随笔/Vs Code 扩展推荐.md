@@ -1,19 +1,20 @@
 ---
 title: Vs Code 扩展推荐
+abbrlink: 63514
+date: 2021-10-22 00:00:00
 categories:
   - 随笔
 tags:
   - Vs Code
   - Recommend
-abbrlink: 63514
-date: 2021-10-22 00:00:00
+
 ---
 
 # Vs Code 扩展推荐
 
 ## 写在前面
 
-推荐一些 Vs Code 好用的扩展，需要注意的是大多是前端这一领域的。
+推荐一些 Vs Code 好用的扩展，大多是前端这一领域的。
 
 ## Bracket Pair Colorizer
 

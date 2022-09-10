@@ -1,5 +1,7 @@
 ---
 title: Lsky + PicGo + Typora 搭建舒适的写作环境
+abbrlink: 30568
+date: 2022-06-12 00:00:00
 categories:
   - 教程
 tags:
@@ -7,8 +9,7 @@ tags:
   - PicGo
   - Typora
   - Markdown
-abbrlink: 30568
-date: 2022-06-12 00:00:00
+
 ---
 
 # Lsky + PicGo + Typora  搭建舒适的写作环境

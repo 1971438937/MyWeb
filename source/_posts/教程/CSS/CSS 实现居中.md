@@ -1,12 +1,12 @@
 ---
 title: CSS 实现居中
+abbrlink: 58870
+date: 2021-10-17 00:00:00
 categories:
   - 教程
 tags:
   - CSS
   - 前端
-abbrlink: 58870
-date: 2021-10-17 00:00:00
 ---
 
 # CSS 实现居中

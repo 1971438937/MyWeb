@@ -1,11 +1,11 @@
 ---
 title: PHPStudy 启动服务器时报错
+abbrlink: 8049
+date: 2022-04-20 00:00:00
 categories:
   - 问题
 tags:
   - PHPStudy
-abbrlink: 8049
-date: 2022-04-20 00:00:00
 ---
 
 # PHPStudy 启动服务器时报错

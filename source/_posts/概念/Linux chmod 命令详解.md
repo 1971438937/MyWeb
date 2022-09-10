@@ -1,11 +1,12 @@
 ---
 title: Linux chmod 命令详解
+date: 2022-08-13 00:00:00
+abbrlink: 29651
 categories:
   - 概念
 tags:
   - Linux
-abbrlink: 29651
-date: 2022-08-13 00:00:00
+
 ---
 
 # Linux chmod 命令详解

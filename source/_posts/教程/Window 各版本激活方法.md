@@ -1,11 +1,11 @@
 ---
 title: Window 各版本激活方法
+abbrlink: 46294
+date: 2022-01-02 00:00:00
 categories:
   - 教程
 tags:
   - Windows
-abbrlink: 46294
-date: 2022-01-02 00:00:00
 ---
 
 # Window 各版本激活方法
