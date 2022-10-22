@@ -3,9 +3,9 @@ title: PHPStudy 启动服务器时报错
 abbrlink: 8049
 date: 2022-04-20 00:00:00
 categories:
-  - 问题
+        - 问题
 tags:
-  - PHPStudy
+        - PHPStudy
 ---
 
 # PHPStudy 启动服务器时报错
@@ -16,7 +16,7 @@ tags:
 
 ## 场景
 
-使用 PHPStudy 启动 Apache 和 Nginx 的时候，启动失败，提示的错误信息为 `AH......`巴拉巴拉       
+使用 PHPStudy 启动 Apache 和 Nginx 的时候，启动失败，提示的错误信息为 `AH......`巴拉巴拉
 
 ### 原因
 

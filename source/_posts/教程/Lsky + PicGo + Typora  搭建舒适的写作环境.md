@@ -58,9 +58,27 @@ Windows 10 操作系统。
 
 ### 获取 Token 并配置
 
-来到 Lsky Pro 的管理后台，选择左侧**接口**菜单，并用在线 POST工具 获取 Token。
+获取 Token 需要用到 [在线 POST工具](http://post.jsonin.com/)。
 
-链接为**你的接口 Url + /token**，post 参数为：**email=Your Email&password=YourPassword**。
+![post](https://gallery.yxzi.xyz/galleries/2022/10/09/post.png)
+
+POST 需要两个东西，一个是**接口 Url**，可以在 Lsky Pro  管理后台的接口菜单中查看。
+
+![查看接口url](https://gallery.yxzi.xyz/galleries/2022/10/09/%E6%9F%A5%E7%9C%8B%E6%8E%A5%E5%8F%A3url.png)
+
+记得加上接口Url 后面加上 `/tokens` ，像这样 https://gallery.yxzi.xyz/api/v1/tokens
+
+接着就是两个参数，分别是邮箱和密码
+
+![两个参数](https://gallery.yxzi.xyz/galleries/2022/10/09/%E4%B8%A4%E4%B8%AA%E5%8F%82%E6%95%B0.png)
+
+邮箱和密码在 Lsky Pro 管理后台的设置菜单中查看。
+
+![邮箱和密码在Lsky Pro 管理后台的设置菜单中查看](https://gallery.yxzi.xyz/galleries/2022/10/09/%E9%82%AE%E7%AE%B1%E5%92%8C%E5%AF%86%E7%A0%81%E5%9C%A8Lsky%20Pro%20%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0%E7%9A%84%E8%AE%BE%E7%BD%AE%E8%8F%9C%E5%8D%95%E4%B8%AD%E6%9F%A5%E7%9C%8B.png)
+
+格式为 ：`email=123456789@qq.com&password=123456789`
+
+最后点击发送请求，即可查看 token。
 
 ![获取token](https://gallery.yxzi.xyz/galleries/2022/06/18/%E8%8E%B7%E5%8F%96toke.png)
 
