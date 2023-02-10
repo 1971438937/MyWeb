@@ -10,7 +10,7 @@ tags:
 
 ---
 
-# 使用 Docusaurus 时遇到的  Error.md
+# 使用 Docusaurus 时遇到的  Error
 
 ## 写在前面
 
@@ -18,11 +18,11 @@ tags:
 
 这篇文章主要总结我在使用 Docusaurus 中所遇到的一些 error。
 
-## 场景
+## 场景一
 
-`docusaurus build` 时出现以下错误日志：
+`docusaurus build` 时：
 
-```sh
+```cmd
 $ docusaurus build
 [INFO] [zh-Hans] Creating an optimized production build...
 i Compiling Client
@@ -52,3 +52,41 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 ### 解决方法
 
 根据错误信息修改正确即可。
+
+## 场景二
+
+`npm run build` 时：
+
+```cmd
+[ERROR] Docusaurus server-side rendering could not render static page with path ...
+[ERROR] Docusaurus server-side rendering could not render static page with path ...
+[ERROR] Docusaurus server-side rendering could not render static page with path ...
+
+
+Error: Minified React error #62; visit https://reactjs.org/docs/error-decoder.html?invariant=62 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+...
+
+[ERROR] Unable to build website for locale zh-Hans.
+
+● Client █████████████████████████ cache (99%) shutdown IdleFileCachePlugin
+ resolve build dependencies
+
+● Server █████████████████████████ cache (99%) shutdown IdleFileCachePlugin
+ resolve build dependencies
+
+[ERROR] Error: Failed to compile with errors.
+    at E:\Github\Note\node_modules\@docusaurus\core\lib\webpack\utils.js:180:24
+    at E:\Github\Note\node_modules\webpack\lib\MultiCompiler.js:554:14
+    at processQueueWorker (E:\Github\Note\node_modules\webpack\lib\MultiCompiler.js:491:6)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+```
+
+原因是因为在 Docusaurus 中，由于所有 Markdown 文件都是使用 MDX 解析的，因此在文档中所有 HTML 语法都必须使用 JSX（React）语法。因此，如果需要对文档元素设置内联样式，那么需要遵循 JSX 语法。
+
+```HTML
+/* 应该使用 JSX*/
+<span style={{backgroundColor: 'red'}}>Foo</span>
+/* 而不是标准 HTML*/
+<span style="background-color: red">Foo</span>
+```
+
