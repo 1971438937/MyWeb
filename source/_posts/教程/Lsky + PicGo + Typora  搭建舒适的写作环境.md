@@ -84,7 +84,7 @@ POST 需要两个东西，一个是**接口 Url**，可以在 Lsky Pro  管理�
 
 获取到 Token 后，回到 PicGo，选择侧栏的**图床设置**，再选择 **lankong**。
 
-版本选择 **V2**，Server 配置**你的图床域名**，Auth Token** 配置 **Bearer 1|YourToken**，然后确定。
+版本选择 **V2**，Server 配置**你的图床域名**，Auth Token 配置 **Bearer + YourToken**，然后确定。
 
 ![配置PicGo2](https://gallery.yxzi.xyz/galleries/2022/06/18/%E9%85%8D%E7%BD%AEPicGo2.png)
 

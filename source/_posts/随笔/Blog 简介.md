@@ -1,5 +1,5 @@
 ---
-title: 介绍下我的博客
+title: Blog 简介
 abbrlink: 17503
 date: 2022-08-13 00:00:00
 categories:
@@ -9,7 +9,7 @@ tags:
 
 ---
 
-# 介绍下我的博客
+# Blog 简介
 
 ## 写在前面
 

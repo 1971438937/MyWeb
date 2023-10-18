@@ -76,7 +76,7 @@ tags:
 | $\delta$   | `\delte` | $\Delta$ | `\Delta` | 德尔塔   |
 | $\zeta$    |          |          |          | 泽塔     |
 | $\eta$     |          |          |          | 伊塔     |
-| $\theta$   |          |          |          | 西塔     |
+| $\theta$   | `\theta` |          |          | 西塔     |
 | $\omicron$ |          |          |          | 奥密克戎 |
 | $\omega$   | `\omega` |          |          | 欧米茄   |
 
@@ -98,3 +98,12 @@ tags:
 | $\because $   | `\because`   | 因为 |
 | $\therefore $ | `\therefore` | 所以 |
 | $\exist$      | `\exist`     | 存在 |
+
+## 向量
+
+| 符号     | LaTeX    | 说明 |
+| -------- | -------- | ---- |
+| $\vec{}$ | `\vec{}` | 向量 |
+| $\cdot$  | `\cdot`  | 乘   |
+|          |          |      |
+
