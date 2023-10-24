@@ -1,6 +1,6 @@
 ---
 title: 关于
-date: 2022-06-24 01:15:15
+date: 2023-10-24 06:00:00
 comments: false
 ---
 
@@ -8,8 +8,10 @@ comments: false
 
 自由，无人干涉；清静，安宁；以自我为中心。
 
+喜欢极简主义、乒乓球、跑步、骑行以及——活着。
 
-## 少即是多
+
+### 极简主义：少即是多
 
 追求极致简约的呈现效果，并且拒绝违反这一形态的任何事物。
 
@@ -22,5 +24,3 @@ comments: false
 笔记：https://note.yxzi.xyz/
 
 图床：https://gallery.yxzi.xyz/
-
-云盘：https://cloud.yxzi.xyz/
