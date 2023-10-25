@@ -1,10 +1,12 @@
 ---
 title: LaTeX 数学符号
 date: 2022-10-16
+abbrlink: 39651
 categories:
-        - 数学
+        - 概念
 tags:
-        - 专升本高数
+        - LaTeX
+        - 数学
 ---
 
 # LaTeX 数学符号
