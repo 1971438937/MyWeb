@@ -3,7 +3,7 @@ title: CSS 瀑布流实现方式总结
 abbrlink: 58872
 date: 2021-12-12
 categories:
-        - Note
+        - 教程
 tags:
         - Css
         - 前端
