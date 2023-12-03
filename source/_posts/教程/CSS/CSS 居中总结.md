@@ -113,7 +113,7 @@ mian.css
 
 <img src="https://gallery.yxzi.xyz/galleries/2022/09/29/%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD.png" alt="绝对定位水平居中" style="zoom:50%;" />
 
-## transform 居中
+## transform 居中（推荐）
 
 `transform` 属性的 `translate()` 偏移的百分比值是相对于自身大小的，因此用它可以配合绝对定位实现居中。
 
