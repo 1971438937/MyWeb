@@ -51,36 +51,41 @@ tags:
 
 ## 等号
 
-| 符号   | LaTeX  | 说明 |
-| ------ | ------ | ---- |
-| $\sim$ | `\sim` | 等价 |
-| $\neq$ | `\neq` |      |
-|        |        |      |
-|        |        |      |
+| 符号    | LaTeX   | 说明 |
+| ------- | ------- | ---- |
+| $\sim$  | `\sim`  | 等价 |
+| $\neq$  | `\neq`  |      |
+| $\cong$ | `\cong` | 等价 |
+|         |         |      |
 
 ## 箭头
 
-| Symbol            | LaTeX             | Description |
-| ----------------- | ----------------- | ----------- |
-| $\Longrightarrow$ | `\Longrightarrow` | 大长右箭头  |
-|                   |                   |             |
-|                   |                   |             |
+| Symbol                | LaTeX                 | Description  |
+| --------------------- | --------------------- | ------------ |
+| $\Longrightarrow$     | `\Longrightarrow`     | 大长右箭头   |
+| $\Longleftrightarrow$ | `\Longleftrightarrow` | 大长左右箭头 |
+| $\rightarrow$         | `\rightarrow`         |              |
 
 
 
 ## 希腊字母
 
-| 小写       | LaTeX    | 大写     | LaTeX    | 说明     |
-| ---------- | -------- | -------- | -------- | -------- |
-| $\alpha$   | `\alpha` |          |          | 阿尔法   |
-| $\beta$    | `\beta`  |          |          | 贝塔     |
-| $\xi$      | `\xi`    |          |          | 克西     |
-| $\delta$   | `\delte` | $\Delta$ | `\Delta` | 德尔塔   |
-| $\zeta$    |          |          |          | 泽塔     |
-| $\eta$     |          |          |          | 伊塔     |
-| $\theta$   | `\theta` |          |          | 西塔     |
-| $\omicron$ |          |          |          | 奥密克戎 |
-| $\omega$   | `\omega` |          |          | 欧米茄   |
+| 小写          | LaTeX         | 大写     | LaTeX    | 说明     |
+| ------------- | ------------- | -------- | -------- | -------- |
+| $\alpha$      | `\alpha`      |          |          | 阿尔法   |
+| $\beta$       | `\beta`       |          |          | 贝塔     |
+| $\xi$         | `\xi`         |          |          | 克西     |
+| $\delta$      | `\delte`      | $\Delta$ | `\Delta` | 德尔塔   |
+| $\zeta$       |               |          |          | 泽塔     |
+| $\eta$        |               |          |          | 伊塔     |
+| $\theta$      | `\theta`      |          |          | 西塔     |
+| $\omicron$    |               |          |          | 奥密克戎 |
+| $\omega$      | `\omega`      |          |          | 欧米茄   |
+| $\gamma$      | `\gamma`      |          |          | 伽马     |
+| $\varepsilon$ | `\varepsilon` |          |          | 伊普西隆 |
+| $\tau$        | `\tau`        |          |          | 踏       |
+|               |               |          |          |          |
+|               |               |          |          |          |
 
 ## 积分
 
@@ -94,6 +99,8 @@ tags:
 |                                   |                                   |          |
 
 ## 证明
+
+
 
 | 符号          | LaTeX        | 说明 |
 | ------------- | ------------ | ---- |
@@ -109,11 +116,32 @@ tags:
 | $\cdot$  | `\cdot`  | 乘   |
 |          |          |      |
 
-矩阵
+## 矩阵
 
 | 符号             | LaTeX           | 说明 |
 | ---------------- | --------------- | ---- |
 | $A^{\mathrm{T}}$ | `^{\mathrm{T}}` | 转置 |
 |                  |                 |      |
 |                  |                 |      |
+
+## 其他
+
+| 符号                                                  | LaTeX                                                 | 说明     |
+| ----------------------------------------------------- | ----------------------------------------------------- | -------- |
+| $\begin{equation}D = \sum_{n=1}^N a_n \end{equation}$ | `\begin{equation}D = \sum_{n=1}^N a_n \end{equation}` | 求和     |
+| $\overline{A}$                                        | `\overline{A}`                                        | 增广矩阵 |
+| $\forall$                                             | `\forall`                                             | 任意     |
+| $\prod$                                               | `\prod`                                               | 连乘     |
+
+
+
+## 集合
+
+
+
+| 符号     | LaTeX    | 说明   |
+| -------- | -------- | ------ |
+| $\in$    | `\in`    | 属于   |
+| $\notin$ | `\notin` | 不属于 |
+|          |          |        |
 

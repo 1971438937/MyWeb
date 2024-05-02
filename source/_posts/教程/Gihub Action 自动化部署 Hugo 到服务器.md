@@ -359,7 +359,7 @@ jobs:
 
 其中一些是 **仓库的秘密环境变量**：
 
-`SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}`：SSH 登录私钥，此前已经介绍了生成 SSH 私钥的两种方式。
+`SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}`：SSH 登录私钥，此前已经介绍了生成 SSH 私钥的两种方式，推荐使用。
 
 `SOURCE: ${{ secrets.SOURCE }}`：仓库源路径，例如 **public/**.
 
